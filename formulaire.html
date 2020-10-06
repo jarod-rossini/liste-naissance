@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta name="viewport" content="width=device-width">
+		<meta HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+		<link rel="stylesheet" href="liste.css">
+		<meta charset="UTF-8">
+		<title>Liste de naissance</title>
+	</head>
+	<header>
+		<div id="title">
+			<h1>Liste pour bébé</h1>
+		</div>
+	</header>
+	<body>
+		<div id="formulaire">
+			<form>
+				<table>
+						<tr><td>Photo : </td><td><input required type="file" accept="image/png, image/jpg"></input></td></tr>
+						<tr><td>Nom : </td><td><input required placeholder="Ex: Poussette" type="text"></input></td></tr>
+						<tr><td>Description : </td><td><input required placeholder="Ex: Poussette rose, taille L ..." type="text"></input></td></tr>
+						<tr><td>Etat : </td>
+						<td><select required>
+								<option value="">--Choisir--</option>
+								<option value="urgent">Urgent</option>
+								<option value="normal">Normal</option>
+								<option value="ami">Ami</option>
+							</select></td></tr>
+				</table>
+				<input type="submit" value="Ajouter"></input>
+			</form>
+		</div>
+	</body>
+	<footer>
+		<div class="baspage">
+			<ul>
+				<li class="urgent">Urgent : Texte en rouge</li>
+				<li class="private">Déjà acheté : Fond en rouge</li>
+				<li class="normal">Normal : Fond en rose pâle</li>
+				<li class="friend">sélectionné par un ami : Fond en orange</li>
+			</ul>
+			<ul>
+				<a href="formulaire.html"><li class="add">Ajouter un objet</li></a>
+			</ul>
+		</div>
+	</footer>
+</html>

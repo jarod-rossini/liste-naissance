@@ -1,0 +1,120 @@
+body{
+	padding: none;
+	margin: 0;
+	background-image: url('bodyback.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	font-family: trebuchet, sans-serif;
+}
+
+.friend{
+	background-color: orange;
+}
+.private{
+	background-color: red;
+}
+.urgent{
+	color: red;
+	font-weight: bold;
+	background-color: gray;
+}
+.normal{
+	background-color: #FFE3F6;
+}
+
+#title{
+	display: flex;
+	justify-content: center;
+	background-image: url('header.jpg');
+	background-size: cover;
+	border: solid 4px black;
+}
+
+#title h1{
+	background-color: white;
+	padding: 0.5%;
+	border-radius: 10px;
+}
+
+#list{
+	display: flex;
+	justify-content: center;
+	margin-top: 7%;
+}
+
+#list table td:nth-child(even){
+	border-radius: 10px;
+	border: solid 2px black;
+}
+
+#list table td img{
+	width: 8vw;
+	border-radius: 10px;
+	border: solid 2px black;
+}
+
+h2 a{
+	text-decoration: none;
+	color: black;
+}
+
+h2 a:hover{
+	color: green;
+}
+
+h2, p{
+	padding: 0 5%;
+}
+
+.baspage{
+	background-image: url('header.jpg');
+	display: flex;
+	justify-content: space-between;
+	border: solid 4px black;
+	margin-top: 5%;
+}
+
+.baspage ul{
+	padding: 2%;
+	background-size: cover;
+	list-style: none;
+	font-weight: bold;
+}
+
+.baspage ul li{
+	padding: 0.5%;
+	border-radius: 10px;
+}
+
+.add{
+	text-align: center;
+	background-color: white;
+}
+
+.baspage ul a{
+	text-decoration: none;
+	color: black;
+}
+
+.add:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+
+#formulaire form table{
+	background-color: #FFE3F6;
+	padding: 2%;
+	border: solid 2px black;
+}
+
+#formulaire form{
+	display: flex;
+	justify-content: center;
+	margin: 8% 0;
+}
+
+#formulaire table td{
+	width: 12vw;
+}
